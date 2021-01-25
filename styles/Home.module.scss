@@ -15,7 +15,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
 .footer {
   width: 100%;
   height: 100px;
@@ -49,7 +52,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+ 
 }
 
 .title,
