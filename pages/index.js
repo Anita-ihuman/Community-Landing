@@ -7,6 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Nav />
       <main className={styles.main}>
+        <img src="/img.png" alt="Logo" className={styles.img} />
         <div className={styles.title}>
           <h2>Simply time tracking. Powerful reporting.</h2>
           <p>
@@ -14,7 +15,7 @@ export default function Home() {
           </p>
           <button className={styles.btn}>Request early access</button>
         </div>
-        <img src="/img.png" alt="Logo" className={styles.img} />
+        <img src="/img.png" alt="Logo" className={styles.img2} />
       </main>
 
       <footer className={styles.footer}>

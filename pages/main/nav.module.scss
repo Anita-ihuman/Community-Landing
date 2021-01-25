@@ -1,15 +1,13 @@
 .nav {
   display: flex;
-  width: 1328px;
   height: 43px;
+  background: red;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
 }
-.header {
-  float: left;
-  justify-content: left;
-  align-items: left;
-}
+
 .menu a {
   padding: 20px;
   color: green;
-  float: right;
 }

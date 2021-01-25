@@ -1,6 +1,5 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,14 +11,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:0 120px ;
+  margin: 0 120px;
 }
 .img {
   width: 617px;
-  height: 664px;
+  height: 694px;
+  object-fit: cover;
+  max-block-size: 657px;
+  display: none;
+}
+.img2{
+  width: 617px;
+  height: 694px;
+  object-fit: cover;
+  max-block-size: 657px;
 }
 .title {
-  align-items: Left;
   padding-right: 32px;
   width: 551px;
 }
@@ -43,6 +50,7 @@
   color: white;
   font-size: 18px;
   margin-top: 24px;
+
 }
 
 .footer {
@@ -55,12 +63,46 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .container{
+    margin: 24px;
   }
   .main {
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 50px;
+    padding: 24px;
+  }
+
+  .img {
+    width: 308px;
+    height: 297px;
+    object-fit: cover;
+    max-block-size: 308px;
+    display: block;
+  }
+  .img2{
+ display: none;
+}
+  .title {
+    margin-bottom: 45px;
+    align-items: Left;
+    padding-right: 32px;
+    width: 314px;
+  }
+  .title h2 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 43px;
+  }
+  .title p {
+    font-size: 16px;
+    width: 314px;
+    line-height: 25.6px;
+  }
+  .btn {
+    width: 203px;
+    height: 67px;
+    font-size: 16px;
+    padding: 24px, 10px, 24px, 10px;
   }
 }
