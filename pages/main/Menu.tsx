@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./nav.module.scss";
 
 const Navbar = () => {
+  const [navOpen, setNavOpen] = useState(false);
+  const handleNavToggle = () => {
+    setNavOpen(!navOpen);
+  };
+  const renderClasses = () => {
+    let classes = "menu";
+    if (navOpen) {
+      classes += "active";
+    }
+    return classes;
+  };
   return (
     <>
       <nav className={styles.nav}>
@@ -9,26 +20,25 @@ const Navbar = () => {
           <a href="/">Gravity</a>
         </h1>
 
-        <div className={styles.menu}>
-          <a href="/" className={styles.link}>
-            Features
-          </a>
-
-          <a href="/" className={styles.link}>
-            Pricing
-          </a>
-
-          <a href="/" className={styles.link}>
-            Why Gravity
-          </a>
-
-          <a href="/" className={styles.link}>
-            Sign In
-          </a>
-        </div>
-
-        <div className={styles.toggle}>
-          <i className="fas fa-bars"></i>
+        <ul className={styles.menu}>
+          <li className={styles.link}>
+            <a href="/">Features</a>
+          </li>
+          <li className={styles.link}>
+            <a href="/"> Pricing</a>
+          </li>
+          <li className={styles.link}>
+            <a href="/">Why Gravity</a>
+          </li>
+          <li className={styles.link}>
+            <a href="/">Sign In</a>
+          </li>
+        </ul>
+        <div className={styles.toggle} onClick={handleNavToggle}>
+          <button className={styles.bars}>
+            <img src="/dots.png" alt="Logo" />
+          <span>MENU</span>
+          </button>
         </div>
       </nav>
     </>
