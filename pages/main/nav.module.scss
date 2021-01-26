@@ -6,8 +6,25 @@
   align-items: center;
   justify-content: space-between;
 }
+.menu{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    padding: 20px;
+}
+.link {
+  padding: 40px;
+  color: white;
+  list-style: none;
+}
 
-.menu a {
-  padding: 20px;
-  color: green;
+@media (max-width: 600px) {
+  .menu a {
+    display: none;
+  }
+  .toggle {
+    display: block;
+  }
 }
