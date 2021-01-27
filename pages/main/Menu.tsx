@@ -11,7 +11,7 @@ const Navbar = () => {
   const renderClasses = () => {
     let classes = "menu";
     if (navOpen) {
-      classes += { Results };
+      // classes += { Results };
     }
 
     return classes;
