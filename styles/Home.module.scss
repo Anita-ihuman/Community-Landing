@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   font-family: Helvetica Neue;
- 
 }
 
 .main {
@@ -14,7 +13,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 120px;
-   font-family: Helvetica Neue;
+  font-family: Helvetica Neue;
 }
 .img {
   width: 617px;
@@ -23,7 +22,7 @@
   max-block-size: 657px;
   display: none;
 }
-.img2{
+.img2 {
   width: 617px;
   height: 694px;
   object-fit: cover;
@@ -44,19 +43,18 @@
   width: 551px;
   font-size: 24px;
   font-weight: 400;
- 
 }
 .btn {
   width: 222px;
   height: 67px;
   border-radius: 8px;
   background-color: #71a89e;
-  padding:20px, 24px, 20px, 24px;
+  padding: 20px, 24px, 20px, 24px;
   color: white;
   font-size: 18px;
   margin-top: 24px;
   border: 2px solid black;
-
+  cursor: pointer;
 }
 
 .footer {
@@ -69,27 +67,29 @@
 }
 
 @media (max-width: 600px) {
-  .container{
+  .container {
     margin: 15px;
     width: 100%;
   }
   .main {
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 20px;
+    margin: 0px;
     padding: 24px;
+    justify-content: center;
   }
 
   .img {
     width: 308px;
-    height: 297px;
+    height: 330px;
     object-fit: cover;
     max-block-size: 308px;
     display: block;
+    margin-bottom: 48px;
   }
-  .img2{
- display: none;
-}
+  .img2 {
+    display: none;
+  }
   .title {
     margin-bottom: 45px;
     align-items: Left;
