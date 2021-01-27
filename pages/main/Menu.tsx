@@ -20,9 +20,9 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.nav}>
-        <h1 className={styles.header}>
+        <p className={styles.header}>
           <img src="/Logo.png" alt="Logo" />
-        </h1>
+        </p>
 
         <ul
           className={styles.menu}

@@ -17,6 +17,10 @@
   padding: 6px 64px;
   font-weight: 700;
 }
+.header:hover{
+  font-size: 250%;
+  cursor: pointer;
+}
 .link {
   padding: 26px;
   color: black;
@@ -25,7 +29,9 @@
   font-weight: 500;
   font-size: 20px;
 }
-
+.link:hover{
+  font-size: 100%;
+}
 .toggle {
   cursor: pointer;
   color: white;
