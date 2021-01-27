@@ -36,19 +36,20 @@
   .nav {
     display: flex;
     width: 100%;
-    justify-content:space-around;
+    justify-content: space-around;
     margin: 0;
   }
+  .header{
+    padding: 0;
+  }
   .header img {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .toggle {
     width: 99px;
     background-color: #f9f9f9, 100%;
-    color: #22322f;
     display: block;
-    padding: 22px 9px;
-    margin-right: 24px;
+    margin-right: 0px;
     font-size: 12px;
     font-weight: 700;
     justify-content: center;
@@ -64,7 +65,7 @@
     background-color: #e7fffb;
     padding: 20px;
     transition: transform 0.5s ease-in;
-    display: block;
+    display: none;
     transform: translateX(-600px);
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px #888888;
@@ -81,16 +82,18 @@
   .bars {
     display: flex;
     flex-direction: row;
-    width: 56px;
+    margin-left: 50px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     font-family: sans-serif;
-    padding: 4px;
+    padding: 6px 5px;
   }
   .bars img {
     margin: 0;
   }
   .bars span {
+    padding-left: 10x;
     font-weight: 700;
+    font-size: 12px;
   }
 }

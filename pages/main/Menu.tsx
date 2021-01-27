@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className={styles.toggle} onClick={handleNavToggle}>
           <button className={styles.bars} onClick={() => setNavOpen}>
             <img src="/dots.png" alt="Logo" />
-            <span>MENU</span>
+            <span>Menu</span>
           </button>
         </div>
       </nav>
