@@ -17,8 +17,9 @@ export default function Home() {
         </div>
         <img src="/img.png" alt="Logo" className={styles.img2} />
       </main>
-
+<hr></hr>
       <footer className={styles.footer}>
+    
         Recreated by <p>Anita Ihuman</p>
       </footer>
     </div>
