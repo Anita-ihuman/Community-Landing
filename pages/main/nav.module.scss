@@ -1,15 +1,14 @@
 .nav {
   display: flex;
   height: 43px;
-  background:white;
+  background: white;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .menu {
   display: flex;
-  justify-content: space-evenly;
 }
 .special {
   color: #71a89e;
@@ -19,10 +18,9 @@
   font-weight: 700;
 }
 .link {
-  padding: 40px;
+  padding: 26px;
   color: black;
   list-style: none;
-  font-weight: normal;
   font-family: sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -38,7 +36,7 @@
   .nav {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content:space-around;
     margin: 0;
   }
   .header img {

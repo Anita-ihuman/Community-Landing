@@ -5,12 +5,6 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   const onClick = () => setNavOpen(true);
 
-  // const Results = () => (
-  //   <div id="results" className="search-results">
-
-  //   </div>
-  // );
-
   const handleNavToggle = () => {
     setNavOpen(!navOpen);
   };
@@ -32,9 +26,9 @@ const Navbar = () => {
 
         <ul
           className={styles.menu}
-          style={{
-            transform: navOpen ? "translateX(0px)" : "translateX(-700px)",
-          }}
+          // style={{
+          //   transform: navOpen ? "translateX(0px)" : "translateX(-700px)",
+          // }}
         >
           <li className={styles.link}>
             <a href="/">Features</a>
