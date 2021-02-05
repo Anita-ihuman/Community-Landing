@@ -1,11 +1,11 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
-import Nav from "./main/Menu";
-
+import Nav from "../component/nav";
+import Footer from '../component/footer'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Nav />
+     
       <main className={styles.main}>
         <img src="/img.png" alt="Logo" className={styles.img} />
         <div className={styles.title}>
@@ -18,10 +18,7 @@ export default function Home() {
         <img src="/img.png" alt="Logo" className={styles.img2} />
       </main>
 <hr></hr>
-      <footer className={styles.footer}>
-    
-        Recreated by <p>Anita Ihuman</p>
-      </footer>
+      
     </div>
   );
 }
