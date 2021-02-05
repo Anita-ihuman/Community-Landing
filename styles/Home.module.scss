@@ -134,13 +134,13 @@
   .main {
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0px;
-    padding-left: 24px;
+    margin: 10px;
+    padding-left: 0px;
     justify-content: center;
   }
 
   .img {
-    width: 328px;
+    width: 318px;
     height: 510px;
     object-fit: cover;
     max-block-size: 400px;

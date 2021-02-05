@@ -47,8 +47,15 @@ const Navbar = () => {
         </ul>
         <div className={styles.toggle} onClick={handleNavToggle}>
           <button className={styles.bars} onClick={() => setNavOpen}>
-            <img src="/dots.png" alt="Logo" />
-            <span>Menu</span>
+            <div>
+              <p>
+               
+                <div>
+                  <img src="/dots.png" alt="Logo" />
+                </div>
+                Menu
+              </p>
+            </div>
           </button>
         </div>
       </nav>
