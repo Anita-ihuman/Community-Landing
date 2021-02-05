@@ -74,20 +74,20 @@
 
 @media (max-width: 600px) {
   .container {
-    margin: 15px;
+    margin: auto;
     width: 100%;
   }
   .main {
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0px;
-    padding: 24px;
+    padding-left: 24px;
     justify-content: center;
   }
 
   .img {
-    width: 358px;
-    height: 430px;
+    width: 328px;
+    height: 510px;
     object-fit: cover;
     max-block-size: 400px;
     display: block;
@@ -102,8 +102,8 @@
     margin-right: 0;
     margin-bottom: 45px;
     align-items: Left;
-    padding-right: 32px;
-    padding-left: 20px;
+   
+    
     width: 314px;
   }
   .title h2 {

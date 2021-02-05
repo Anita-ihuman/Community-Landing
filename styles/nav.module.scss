@@ -8,7 +8,7 @@
   padding-top: 50px;
 }
 .menu {
-  display: flex;
+  display: flex;padding: 0px;
 }
 .special {
   color: #71a89e;
@@ -38,7 +38,7 @@
 
   display: none;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .nav {
     display: flex;
     width: 100%;
